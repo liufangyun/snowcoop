@@ -19,10 +19,11 @@ Vue.use(VueForm)
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: '',
+    key: process.env.VUE_APP_GOOGLE_API_KEY,
     libraries: 'places'
   }
 })
+console.log(process.env.VUE_APP_GOOGLE_API_KEY)
 new Vue({
   router,
   store,
