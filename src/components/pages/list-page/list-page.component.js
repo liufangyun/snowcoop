@@ -1,4 +1,4 @@
-import mapView from '../../shares/map-view/map-view.component.js'
+import mapView from '../../shares/map-view/map-view.component.vue'
 export default {
   name: 'listPage',
   components: {
@@ -6,13 +6,14 @@ export default {
   },
   data () {
     return {
-      address: null
+      address: null,
+      addressList: null
     }
   },
   mounted () {
     // console.log('mounted...')
-    this.$store.dispatch('GET_ADDRESS_LIST'.then(adddressList => {
-      this.adddressList = adddressList
-    }))
+    this.$store.dispatch('GET_ADDRESS_LIST').then(addressList => {
+      this.addressList = addressList
+    })
   }
 }
