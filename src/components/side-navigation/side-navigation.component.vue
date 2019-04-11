@@ -4,7 +4,7 @@
       <div class="logo">
         <span class="Snowcoop">Snowcoop</span>
       </div>
-      <el-menu-item class="menu-itemhover" index="/dashboard" type="button" @click="hijohn = true" v-bind:class="menu-itemhover">
+      <el-menu-item class="menu-itemhover" index="/dashboard" type="button" @click="hijohn = true">
         <span class="Dashboard">Dashboard</span>
       </el-menu-item>
       <el-menu-item index="/list" @click="hijohn = false">

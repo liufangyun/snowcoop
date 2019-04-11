@@ -1,16 +1,16 @@
 export default {
   name: 'SideNavigation',
-  data() {
+  data () {
     return {
       activeLink: null
-    };
+    }
   },
-  mounted() {
-    this.activeLink = this.$route.path;
+  mounted () {
+    this.activeLink = this.$route.path
   },
   watch: {
-    $route(newVal) {
-      this.activeLink = newVal.path;
+    $route (newVal) {
+      this.activeLink = newVal.path
     }
   }
-};
+}
