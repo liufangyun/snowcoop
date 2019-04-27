@@ -14,3 +14,18 @@ body {
 .el-container > .el-main {
   padding: 0;
 }
+ .el-aside {
+   box-shadow: 0 -6px white, 0 6px white, 0 6px white, 0 -6px white;
+ }
+.pac-container{
+ z-index: 500000; 
+ border-radius: 4px;
+}
+.pac-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pac-item:hover {
+  background-color: #a4d4f6;
+}
+.pac-container:;

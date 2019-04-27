@@ -23,6 +23,7 @@ Vue.use(VueRouter)
 Vue.use(ElementUI)
 Vue.use(VueForm)
 
+Vue.router = router
 // console.log(process.env.VUE_APP_GOOGLE_API_KEY)
 new Vue({
   router,
