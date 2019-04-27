@@ -28,4 +28,6 @@ body {
 .pac-item:hover {
   background-color: #a4d4f6;
 }
-.pac-container:;
+.pac-container::after {
+  display: none;
+}
